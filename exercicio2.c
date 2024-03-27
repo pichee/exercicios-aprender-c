@@ -5,7 +5,7 @@ int main()
     float n;
     printf("Digite um número real ");
     scanf("%f",&n);
-    printf("%f",n);
+    printf("%.2f",n);
 
     return(0);
 }
