@@ -10,6 +10,6 @@ int main()
     printf("qual é a temperatura em Fahrenheit ");
     scanf("%f",&f);
     c=5*(f-32)/9;
-    printf("essa temperatura é igual a %f graus Celsius",c);
+    printf("essa temperatura é igual a %.2f graus Celsius",c);
     return 0;
 }
