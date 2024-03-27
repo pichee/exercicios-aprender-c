@@ -6,5 +6,5 @@ int main(){
     printf("digite a distancia em quilometros");
     scanf("%f",&q);
     m=q/1.61;
-    printf("essa distancia convertida em milhas é igual a %f",m);
+    printf("essa distancia convertida em milhas é igual a %.2f",m);
 }
