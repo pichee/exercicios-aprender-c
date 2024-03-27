@@ -7,5 +7,5 @@ int main(){
     printf("digite a velocidade em km/h ");
     scanf("%f",&km);
     m=km/3.6;
-    printf("essa velocidade corresponde a %2.f metros por segundo",m);
+    printf("essa velocidade corresponde a %.2f metros por segundo",m);
 }
