@@ -7,5 +7,5 @@ int main(){
     printf("digite a temperaturaem graus Kelvin ");
     scanf("%f",&k);
     c= k-273.15;
-    printf("essa temperatura em Celsius equivale a %f",c);
+    printf("essa temperatura em Celsius equivale a %.2f",c);
 }
