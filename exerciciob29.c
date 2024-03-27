@@ -11,6 +11,6 @@ int main(){
         i++;
     }
     a=a/4;
-    printf("The Arithmetic mean is equal %.2f",a);
+    printf("The Arithmetic mean is equal %.2i",a);
     
 }
