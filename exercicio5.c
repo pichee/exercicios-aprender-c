@@ -5,5 +5,5 @@ int main(){
     printf("digite um numero ");
     scanf("%f",&n);
     n=n/5;
-    printf("a quinta parte desse número é %f",n);
+    printf("a quinta parte desse número é %.2f",n);
 }
