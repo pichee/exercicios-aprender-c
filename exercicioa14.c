@@ -7,5 +7,5 @@ int main(){
     printf("O seu angulo possui quantos graus");
     scanf("%f",&g);
     r=g *pi/180;
-    printf("A conversao em radianos é igual a %f",r);
+    printf("A conversao em radianos é igual a %.2f",r);
 }
