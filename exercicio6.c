@@ -10,7 +10,7 @@ int main()
     printf("Digite a temperatura em Celsius ");
     scanf("%f",&c);
     f=c*(9.0/5.0)+32.0;
-    printf("essa temperatura em Fahrenheit equivale a %2.f",f);
+    printf("essa temperatura em Fahrenheit equivale a %.2f",f);
 
     return 0;
 }
