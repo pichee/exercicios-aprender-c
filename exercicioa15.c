@@ -7,5 +7,5 @@ int main(){
     printf("Seu angulo possui quantos radianos");
     scanf("%f",&r);
     g=r*180/pi;
-    printf("Essa quantidade de radianos equivale a %f graus",g);
+    printf("Essa quantidade de radianos equivale a %.2f graus",g);
 }
