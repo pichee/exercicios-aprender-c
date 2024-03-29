@@ -1,9 +1,9 @@
-//Fac¸a um programa que leia um numero inteiro positivo de tr ´ es d ˆ ´ıgitos (de 100 a 999).
-//Gere outro numero formado pelos d ´ ´ıgitos invertidos do numero lido.
+//Make a program that reads a positive integer number with three digits (from 100 to 999). 
+//Generate another number formed by the inverted digits of the number read.
 #include <stdio.h>
     int main(){
         float n,n2,n3,n1;
-        printf("Digite um numero de 100 a 999 ");
+        printf("Enter a number between 100 and 999 ");
         scanf("%f",&n);
            if((n >= 100) && (n <= 999))
             {
@@ -12,9 +12,9 @@
                 n1=((int)n) % 10;
             }
             if((n<100)||(n>1000)){
-            printf("Esse número não pode");
+            printf("This number is not allowed");
             }else{
-            printf("%.0f",n1);   
+            printf("%.0f%.0f%.0f",n1,n2,n3);   
             }
     }
     
