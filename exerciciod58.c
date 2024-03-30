@@ -1,3 +1,5 @@
+//enter a number and show If he is pair our odd
+
 include <stdio.h>
 
 int main()
@@ -7,9 +9,9 @@ int main()
     scanf("%i",&n);
     n=n % 2;
     if (n==0){
-        printf("Esse número é par ");
+        printf("This number is pair ");
     }
     else{
-        printf("esse número é ímpar ");
+        printf("This number is odd ");
 }
 }
