@@ -3,7 +3,7 @@
 #include <stdio.h>
 int main(){
     int d;
-    printf("Choose a number that 1 than 7\n ");
+    printf("Choose a number between 1 and 7\n ");
     scanf("%i",&d);
     switch(d){
         case 1:
