@@ -1,3 +1,6 @@
+// Escreva um programa que, dado o valor da venda, imprima a comissao que dever a ser
+//paga ao vendedor. Para calcular a comissao, considere a tabela abaixo:
+
 //Write a program that, given the value of the sale, prints the commission that should be paid to the seller. 
 //To calculate the commission, consider the table below:
 #include <stdio.h>
