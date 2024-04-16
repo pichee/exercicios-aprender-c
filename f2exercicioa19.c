@@ -1,3 +1,5 @@
+//Faca um programa para verificar se um determinado numero inteiro e divisıvel por 3 ou
+//5.
 //Make a program show if the number is division by three or five;
 #include <stdio.h>
     int main(){
