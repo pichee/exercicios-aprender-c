@@ -1,3 +1,4 @@
+//Faca um programa que receba um numero inteiro e verifique se este numero e par ou ımpar.
 //enter a number and show If he is pair our odd
 
 include <stdio.h>
