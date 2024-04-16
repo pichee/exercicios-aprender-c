@@ -1,3 +1,6 @@
+//Leia um valor em real e a cotacao do dolar. Em seguida, imprima o valor correspondente
+//em dolares. 
+
 //Read a value in real and the dolar exchance rate.Next,showing  the value in   corresponding
 //in dolar.
 #include <stdio.h>
