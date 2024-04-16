@@ -1,3 +1,6 @@
+//Faca um programa que leia um numero indeterminado de idades de indivıduos (pare
+//quando for informada a idade 0), e calcule a idade media desse grupo
+
 //Read numbers until the user put a negative number or zero and
 //show the square thee cube and thee squaree root this number.
 #include <stdio.h>
