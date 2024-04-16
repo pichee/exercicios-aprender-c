@@ -1,3 +1,5 @@
+//Faca um programa que leia 10 inteiros positivos, ignorando nao positivos, e imprima sua
+//media.
 //make a program that shoe the media and ingoring the negatives numbers  
 #include <stdio.h>
     int main(){
