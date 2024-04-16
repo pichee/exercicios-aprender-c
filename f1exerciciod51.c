@@ -1,3 +1,5 @@
+//Escreva um programa que leia as coordenadas x e y de pontos no R2 e calcule sua
+//distancia da origem ˆ (0, 0)
 //Read  a program of read the coordinates  x and y and calculete your
 //distance from the origin.
 #include <stdio.h>
