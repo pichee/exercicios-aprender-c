@@ -1,3 +1,5 @@
+//. Escreva um programa que leia 10 numeros e escreva o menor valor lido e o maior valor
+//lido.
 //Enter 10 numbers and show the bigger and the smaleer.
 #include <stdio.h>
     int main(){
