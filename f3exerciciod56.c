@@ -1,3 +1,6 @@
+//Faca um programa que calcule a soma de todos os numeros primos abaixo de dois
+//milhoes
+
 //add prime numbers until 2000000
 #include <stdio.h>
 
