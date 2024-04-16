@@ -1,3 +1,7 @@
+//Leia o salario de um trabalhador e o valor da prestacao de um emprestimo. Se a
+//prestacao for maior que 20% do salario imprima:Emprestimo nao concedido, caso
+//contrario imprima:Emprestimo concedido.
+
 //Read the salary of a employye and show if he can take a loan
 //but for take a loan the value is maximum your salary more %20.
 #include <stdio.h>
