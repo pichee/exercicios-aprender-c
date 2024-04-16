@@ -1,3 +1,7 @@
+//Fac¸a um programa que calcula a associac¸ao em paralelo de dois resistores  R1 e R2
+//fornecidos pelo usuario via teclado. O programa fica pedindo estes valores e calculando
+//ate que o usuario entre com um valor para resistencia igual a zero
+
 //Read numbers until the user enter a negative number and show the bigger and the smaller;
 #include <stdio.h>
        int main(){
