@@ -1,3 +1,5 @@
+//Leia o tamanho do lado de um quadrado e imprima como resultado a sua area
+
 //Read the side size your square and show with result your zone.
 #include <stdio.h>
     int main(){
