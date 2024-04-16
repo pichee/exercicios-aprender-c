@@ -1,3 +1,4 @@
+//Faca um algoritmo que leia um numero positivo e imprima seus divisores. 
 //Show de divisors the a number
 #include <stdio.h>
 int main(){
