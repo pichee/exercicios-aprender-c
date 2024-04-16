@@ -1,3 +1,12 @@
+//Dados tres valores, A, B, C, verificar se eles podem ser valores dos lados de um triangulo
+//e, se forem, se e um triangulo escaleno, equilitero ou isoscele, considerando os seguin
+//tes conceitos:
+//• O comprimento de cada lado de um triangulo e menor do que a soma dos outros
+//dois lados.
+//• Chama-se equilatero o triangulo que tem tres lados iguais.
+//• Denominam-se isosceles o triangulo que tem o comprimento de dois lados iguais.
+//• Recebe o nome de escaleno o triangulo que tem os tres lados diferentes.
+
 //Given three values, A, B, C, check if they can be the lengths of the sides of a triangle and, if they are, whether it is a scalene, equilateral, or isosceles triangle, considering the following concepts:
 
 //The length of each side of a triangle is less than the sum of the other two sides.
