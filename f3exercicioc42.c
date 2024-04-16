@@ -1,3 +1,6 @@
+//Faca um programa que leia um conjunto nao determinado de valores, um de cada vez, e
+//escreva para cada um dos valores lidos, o quadrado, o cubo e a raiz quadrada. Finalize
+//a entrada de dados com um valor negativo ou zero.
 
 //you need calculate two resisturs the program finished when
 //the formula is zero
