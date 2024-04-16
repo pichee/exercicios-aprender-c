@@ -1,4 +1,7 @@
 //Make a program read the a numbers and show the numbers pair until n in order crescent;
+//Faca um programa que leia um numero inteiro positivo par N e imprima todos os numeros
+//pares de 0 ate N em ordem crescente.
+
 #include <stdio.h>
 int main(){
     int c;
