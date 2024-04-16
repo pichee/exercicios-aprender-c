@@ -1,3 +1,6 @@
+//Escreva um programa que, dados dois numeros inteiros, mostre na tela o maior deles,
+//assim como a diferenca existente entre ambos.
+
 //Read two numbers show the bigger and the difference betewen them
 #include <stdio.h>
     int main(){
