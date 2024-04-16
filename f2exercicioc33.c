@@ -1,3 +1,7 @@
+//Um produto vai sofrer aumento de acordo com a tabela abaixo. Leia o preco antigo,
+//calcule e escreva o preco novo, e escreva uma mensagem em funcao do preco novo (de
+//acordo com a segunda tabela).
+
 //show the price the new product because the tax
 //smaller R$ 50 ´ 5%
 //between R$ 50 and R$ 100 10%
