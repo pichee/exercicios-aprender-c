@@ -1,3 +1,11 @@
+//Faca um programa que apresente um menu de opc¸oes para o calculo das seguintes
+//operacoes entre dois numeros:
+//• adicao (opcao 1)
+//• subtracao (opcao 2)
+//• multiplicacao (opcao 3)
+//• divisao (opcao 4).
+//• saıda (opcao 5)
+
 //Make a program read two numbers and following the frame
 //• addition [1]
 //• subtration [2]
