@@ -1,3 +1,5 @@
+//Faca um algoritmo que calcule o IMC de uma pessoa e mostre sua classificacao de
+//acordo com a tabela abaixo:
 //Just make the imc
 #include <stdio.h>
     int main(){
