@@ -1,3 +1,5 @@
+//Faca um programa que leia um valor N inteiro e positivo, calcule o mostre o valor E,
+//conforme a formula a seguir 
 //its like the other exercise but now you put in fatorial
 #include <stdio.h>
 
