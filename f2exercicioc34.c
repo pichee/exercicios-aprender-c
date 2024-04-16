@@ -1,3 +1,6 @@
+//Leia a nota e o numero de faltas de um aluno, e escreva seu conceito. De acordo com a
+//tabela abaixo, quando o aluno tem mais de 20 faltas ocorre uma reduc¸ao de conceito.
+
 //Show the note theee test based in this table,if the student miss more 20 times
 //so your notee is reducee
 //9.0 ate 10.0 ´ A B
