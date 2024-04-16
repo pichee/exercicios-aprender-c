@@ -1,3 +1,5 @@
+//Escreva um algoritmo que leia um numero inteiro entre 100 e 999 e imprima na saıda
+//cada um dos algarismos que compoem o numero 
 //Read a number between 100 and 999 and show the numerals the participate about the number
 #include <stdio.h>
     int main(){
