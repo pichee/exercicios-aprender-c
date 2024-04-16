@@ -1,4 +1,11 @@
-//Traducion by chat gpt i was so tired by traslate this exercise.
+//Fac¸a um programa que some os numeros impares contidos em um intervalo definido
+//pelo usuario. O usuario define o valor inicial do intervalo e o valor final deste intervalo
+//e o programa deve somar todos os numeros ımpares contidos neste intervalo. Caso o
+//usuario digite um intervalo invalido (comec¸ando por um valor maior que o valor final) deve
+//ser escrito uma mensagem de erro na tela, “Intervalo de valores invalido” e o programa
+//termina. Exemplo de tela de sa´ıda: Digite o valor inicial e valor final: 5 10
+//Soma dos ´ımpares neste intervalo: 21
+
 //Make a program that adds the odd numbers contained in a range defined by the user.
 // The user defines the initial value of the range and the final value of this range,
 // and the program must add all the odd numbers contained in this range. If the user enters an invalid range (starting with a value greater than the final value),
