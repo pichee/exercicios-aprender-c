@@ -1,3 +1,5 @@
+//Faca um programa que receba tres numeros e mostre-os em ordem crescente.
+//Make a program when you show in crescent order.
 #include <stdio.h>
     int main(){
         float n,n1,n2;
