@@ -1,3 +1,5 @@
+//Faca um programa que conte quantos numeros primos existem entre a e b, onde a e b
+//sao numeros informados pelo usuario
 //The user enter a sequence and you show how many prime numbers is
 #include <stdio.h>
 
