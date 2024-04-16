@@ -1,3 +1,4 @@
+//Leia um numero inteiro e imprima o seu antecessor e o seu sucessor
 //read  a whole number and showing your predecessor and successor.
 #include <stdio.h>
     int main(){
