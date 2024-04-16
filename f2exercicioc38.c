@@ -1,5 +1,5 @@
-//is the same think exercise eexerciciof88.c 
-// :/
+//Leia uma data de nascimento de uma pessoa fornecida atraves de tres numeros inteiros:
+//e veja se é valida
 //Read a data and verific if is valid
 #include <stdio.h>
 int main(){
