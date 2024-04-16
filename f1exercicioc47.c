@@ -1,3 +1,4 @@
+//Leia um numero inteiro de 4 dıgitos (de 1000 a 9999) e imprima 1 dıgito por linha.
 //Read a integer number between ( 1000 and 9999) and show one number by line 1
 #include <stdio.h>
     int main(){
