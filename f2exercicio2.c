@@ -1,3 +1,6 @@
+//Leia um numero fornecido pelo usuario. Se esse numero for positivo, calcule a raiz
+//quadrada do numero. Se o numero for negativo, mostre uma mensagem dizendo que o
+//numero e invalido. 
 //Read a value and show your square if the number is negative show invalid number
 #include <stdio.h>
     int main(){
