@@ -1,3 +1,4 @@
+//Fac¸a um programa que leia 10 inteiros e imprima sua media
 //Enter 10 numbers and show the media;
 #include <stdio.h>
     int main(){
