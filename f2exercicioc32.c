@@ -1,3 +1,8 @@
+//Escrever um programa que leia o codigo do produto escolhido do cardapio de uma lan
+//chonete e a quantidade. O programa deve calcular o valor a ser pago por aquele lanche.
+//Considere que a cada execuc¸ao somente ser a calculado um pedido. O cardapio da lanchonete 
+//segue o padrao abaixo:
+
 //Make a menu that read what do you want and the quantity
 //This is the menu
 //Name code Price
