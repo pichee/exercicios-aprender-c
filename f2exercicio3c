@@ -1,3 +1,4 @@
+// /Leia um numero real. Se o numero for positivo imprima a raiz quadrada. Do contrario,imprima o numero ao quadrado.
 //Read a number if is posivite show your square if is negative show your double
 #include <stdio.h>
 #include <math.h>
