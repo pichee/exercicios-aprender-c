@@ -1,7 +1,13 @@
+//A importancia de R$ 780.000,00 ser a dividida entre tres ganhadores de um concurso.
+//Sendo que da quantia total:
+//• O primeiro ganhador recebera 46%;
+//• O segundo recebera 32%;
+//• O terceiro recebera o restante;
+//Calcule e imprima a quantia ganha por cada um dos ganhadores
 //R$ 780.000,00 going be divid among three winners  of a contest;
 //• The first winner will receive 46%; 
 //• The second winner will receive 32%; 
-//• The third winner will receive the rest; ´
+//• The third winner will receive the rest;
 //Calculete and show the how much receive each winner;
 
 #include <stdio.h>
