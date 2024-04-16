@@ -1,3 +1,5 @@
+//Faca um programa que calcule e mostre a area de um trapezio.Sabe-se que:
+//Lembre-se a base maior e a base menor devem ser numeros maiores que zero.
 //Make a program read a area the trapeze
 #include <stdio.h>
 
