@@ -1,3 +1,5 @@
+//Faca um programa que some os numeros primos existentes entre a e b, onde a e b sao
+//numeros informados pelo usuario. 
 //show the addicion the prime number in the sequencee;
 #include <stdio.h>
 
