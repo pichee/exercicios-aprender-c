@@ -1,3 +1,7 @@
+//Receba o salario-base de um funcionario. Calcule e imprima o salario a receber, sabendo-
+//se que esse funcionario tem uma gratificacao de 5% sobre o salario-base. Alem disso,
+//ele paga 7% de imposto sobre o salario-base.
+
 //Receb the salary in employeed. Calculet and show the salary for receb,know
 //if the employeed  receved increase 5% abou the inciail salary.furthermore, ´
 //he pay 7% tax  about your inciail salary.
