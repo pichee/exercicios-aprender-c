@@ -1,3 +1,6 @@
+//Leia um numero inteiro e imprima a soma do sucessor de seu triplo com o antecessor de
+//seu dobro.
+
 //Read a whole number and show  the sum of sucessor your triple with the predecessor
 //your double.
 #include <stdio.h>
