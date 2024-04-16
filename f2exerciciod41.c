@@ -1,3 +1,6 @@
+//Faca um algoritmo que calcule o IMC de uma pessoa e mostre sua classificac¸ao de
+//acordo com a tabela abaixo:
+
 //Make a program that read a number and show the addition of all there until the number
 #include <stdio.h>
     int main(){
