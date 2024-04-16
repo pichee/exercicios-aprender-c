@@ -1,3 +1,4 @@
+//Faca um programa que calcule e mostre a soma dos 50 primeiros numeros pares.
 //calculate the addition of the 50 firsts pair numbers;
 #include <stdio.h>
 int main(){
