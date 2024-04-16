@@ -1,3 +1,7 @@
+//Chico tem 1.50 metro e cresce 2 centımetros por ano, enquanto Ze tem 1.10 metros e
+//cresce 3 centımetros por ano. Escreva um programa que calcule e imprima quantos anos
+//serao necessarios para que Ze seja maior que Chico.
+
 //chico has 1.50 meters and grow up 0.02cm by day
 //ze has 1.10 meters and grow up 0.03 cm by day
 //how many days ze will be bigger than chico
