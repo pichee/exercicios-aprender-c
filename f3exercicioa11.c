@@ -1,5 +1,5 @@
-//Faca um algoritmo que calcule o IMC de uma pessoa e mostre sua classificac¸ao de
-//acordo com a tabela abaixo:
+//Faca um programa que leia um numero inteiro positivo N e imprima todos os numeros
+//naturais de 0 ate N em ordem crescente.
 
 //Make a program that read a number and show the addition of all there until the number
 #include <stdio.h>
