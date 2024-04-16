@@ -1,3 +1,7 @@
+//Faca um programa que leia tres numeros inteiros positivos e efetue o calculo de uma das 
+//seguintes medias de acordo com um valor numerico digitado pelo usuario:
+//1-Geometrica2-Ponderada3-Harmonica4-Aritmetica
+
 //Make a program that reads three positive integer numbers and performs 
 //the calculation of one of the following means according to a numerical value entered by the user:
 #include <stdio.h>
