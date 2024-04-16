@@ -1,3 +1,4 @@
+//Leia um valor inteiro em segundos, e imprima-o em horas, minutos e segundos.
 //Read a integer value in seconds,and show in hours,minutes and seconds.
 #include <stdio.h>
     int main(){
