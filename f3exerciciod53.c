@@ -1,4 +1,5 @@
-//i need use chat gpt for all this question  i dont understand anything some day i will return here
+//Escreva um programa que leia um numero inteiro positivo ´ n e em seguida imprima n
+// linhas do chamado Triangulo de Floyd.
 //Write a program that reads a positive integer 'n' and then prints n lines of the so-called Floyd's Triangle. For n = 6, we have:
 #include <stdio.h>
 
