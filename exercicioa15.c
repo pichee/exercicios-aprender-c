@@ -1,7 +1,7 @@
 //Leia um angulo em radianos e apresente-o convertido em graus. A formula de conversao
 //e:G = R ∗ 180/π, sendo G o angulo em graus e
  R em radianos e π = 3.14.
-//Read a angule in radianes and show 
+//Read a angule in radianes and show
 //covert in degreeds
 #include <stdio.h>
 int main(){
