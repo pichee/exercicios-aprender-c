@@ -1,3 +1,4 @@
+//Faca programas para calcular as seguintes sequencias:
 //Make a program for read the sequences
 //1 + 2 + 3 + 4 + 5 + ... + n
 //1 − 2 + 3 − 4 + 5 + ... + (2n − 1)
