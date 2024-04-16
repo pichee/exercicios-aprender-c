@@ -1,3 +1,5 @@
+//Faca a leitura de tres valores e apresente como resultado a soma dos quadrados dos
+//tres valores lidos
 //Read  three values and show the  result,the addition from squares from
 //three values read.
 #include <stdio.h>
