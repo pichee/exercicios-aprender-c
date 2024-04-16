@@ -1,3 +1,6 @@
+//Faca um programa para leia o horario (hora, minuto e segundo) de inicio e a duracao, em 
+//segundos, de uma experiencia biologica. O programa deve resultar com o novo horario
+//(hora, minuto e segundo) do termino da mesma.
 //Make a program to read the time.The start to duration in seconds
 //from biological experiment.The program Should show the result the new time.
 #include <stdio.h>
