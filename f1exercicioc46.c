@@ -1,3 +1,5 @@
+//Faca um programa que leia um numero inteiro positivo de tres dıgitos (de 100 a 999).
+//Gere outro numero formado pelos dıgitos invertidos do numero lido.
 //Make a program that reads a positive integer number with three digits (from 100 to 999). 
 //Generate another number formed by the inverted digits of the number read.
 #include <stdio.h>
