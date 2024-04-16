@@ -1,5 +1,9 @@
-Given n and two positive integers, i and j, different from 0, print in ascending order the first n natural numbers that are multiples of i or j, or both. Example:
-For n = 6, i = 2, and j = 3, the output should be: 0, 2, 3, 4, 6, 8.
+//Dados n e dois numeros inteiros positivos, i e j, diferentes de 0, imprimir em ordem
+//crescente os n primeiros naturais que sao multiplos de i ou de j e ou de ambos. Exemplo:
+//Para n = 6, i = 2 e j = 3 a sa´ıda devera ser: 0,2,3,4,6,8.
+
+//Given n and two positive integers, i and j, different from 0, print in ascending order the first n natural numbers that are multiples of i or j, or both. Example:
+//For n = 6, i = 2, and j = 3, the output should be: 0, 2, 3, 4, 6, 8.
 #include <stdio.h>
 
 int main() {
