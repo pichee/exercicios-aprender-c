@@ -1,4 +1,5 @@
 //Make a program to receb two values in show the bigger.
+//Faca um programa que receba dois numeros e mostre qual deles e o maior
 #include <stdio.h>
     int main(){
         float n,n1;
