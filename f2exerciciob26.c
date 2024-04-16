@@ -1,3 +1,7 @@
+//Leia a distancia em Km e a quantidade de litros de gasolina consumidos por um carro
+//em um percurso, calcule o consumo em Km/l e escreva uma mensagem de acordo com
+//a tabela abaixo
+
 //show if your car is economic
 //smaller 8 is not so good
 //until 12 is economic
