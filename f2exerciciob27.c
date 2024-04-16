@@ -1,3 +1,4 @@
+//. Escreva um programa que, dada a idade de um nadador, classifique-o em uma das seguintes categorias:
 //Read the olds of a swimmer and classify your category
 //Years category:
 //Children A 5 a 7
