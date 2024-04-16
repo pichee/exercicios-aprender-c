@@ -1,3 +1,4 @@
+//Calcule as raızes da equacao de 2 o grau.
 //calculatee the quadratic equations
 #include <stdio.h>
 #include <math.h>
