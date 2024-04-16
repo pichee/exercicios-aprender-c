@@ -1,3 +1,6 @@
+//Escreva um programa que escreva na tela, de 1 ate 100, de 1 em 1, 3 vezes. A primeira
+//vez deve usar a estrutura de repetic¸ao˜ for, a segunda while, e a terceira do while.
+
 //Use the three looping options and make they show the sequence 1 between 100;
 #include <stdio.h>
     int main(){
