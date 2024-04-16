@@ -1,3 +1,7 @@
+//Faca um programa que leia um numero e, caso ele seja positivo, calcule e mostre:
+//• O numero digitado ao quadrado
+//• A raiz quadrada do numero digitado
+
 //Read a number and if the number is positive make the square and your square root
 #include <stdio.h>
 #include <math.h>
