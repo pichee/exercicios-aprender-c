@@ -1,3 +1,8 @@
+//Sejam a e b os catetos de um triangulo, onde a hipotenusa e obtida pela equacao:
+//hipotenusa =√a2 + b2. Faca um programa que receba os valores de a e b e calcule
+//o valor da hipotenusa atraves da equacao. Imprima o resultado dessa operacao.
+
+
 //Be a and b  peccariesde of a  triangle,where hypotenuse and obtained for equation:
 //√a2 + b2.Make a program what receive  the  values  a and b so calculete
 //the value  from peccariesde.Show the result this operation.
