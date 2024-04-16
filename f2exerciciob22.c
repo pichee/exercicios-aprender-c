@@ -1,3 +1,10 @@
+//Leia a idade e o tempo de servico de um trabalhador e escreva se ele pode ou nao se
+//aposentar. As condicoes para aposentadoria sao
+//• Ter pelo menos 65 anos,
+//• Ou ter trabalhado pelo menos 30 anos,
+//• Ou ter pelo menos 60 anos e trabalhado pelo menos 25 anos.
+//2
+
 //Read how old is of a employee and show if he can retire:
 //•be at least 65 years old;
 // our be thirty work;
