@@ -1,3 +1,12 @@
+//Faca um algoritmo que converta uma velocidade expressa em km/h para m/s e vice
+//versa. Voce deve criar um menu com as duas opcoes de conversao e com uma opcao
+//para finalizar o programa. O usuario podera fazer quantas conversoes desejar, sendo
+//que o programa so ser  a finalizado quando a opcao de finalizar for escolhida.
+
+//Create an algorithm that converts a speed expressed in km/h to m/s and vice versa. You should create a menu with the two
+//conversion options and an option to terminate the program. 
+//The user can make as many conversions as desired, and the program 
+//will only terminate when the option to finish is chosen.
 #include <stdio.h>
 int main(){
     float c,km,ms;
