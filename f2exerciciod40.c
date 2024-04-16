@@ -1,3 +1,8 @@
+//O custo ao consumidor de um carro novo e a soma do custo de fabrica, da comissao
+//do distribuidor, e dos impostos. A comissao e os impostos sao calculados sobre o custo
+//de fabrica, de acordo com a tabela abaixo. Leia o custo de fabrica e escreva o custo ao
+//consumidor.
+
 //Make a program that read the final of cust the  a car
 
 #include <stdio.h>
