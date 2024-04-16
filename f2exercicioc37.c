@@ -1,3 +1,4 @@
+//calcule quatnto voce devera pagar ao parque
 //Calculate how much the user should be pay in the parking: ˜
 //• 1 and 2 hours - R$ 1,00 each
 //• 3 and 4 hours - R$ 1,40 each
