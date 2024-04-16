@@ -1,3 +1,6 @@
+//Usando switch, escreva um programa que leia um inteiro entre 1 e 7 e imprima o dia
+//da semana correspondente a este numero. Isto e, domingo se1, segunda-feira se 2, e
+//assim por diante.
 //Using switch,write a program what read a int number that 1 and  7 and  show the day of the
 //week.
 #include <stdio.h>
