@@ -1,3 +1,6 @@
+//Faca um programa que leia um numero inteiro positivo ımpar N e imprima todos os
+//numeros ımpares de 1 ate N em ordem decrescente.
+
 //Make a program read the a number and show the odd number  in order decrescent;
 #include <stdio.h>
 int main(){
