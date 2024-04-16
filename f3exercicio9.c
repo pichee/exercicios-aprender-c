@@ -1,3 +1,5 @@
+//Faca um programa que leia um numero inteiro N e depois imprima os N primeiros
+//numeros naturais ´ ´ımpares.
 //Make a program read a number and show the firsts odd numbers
 #include <stdio.h>
 int main(){
