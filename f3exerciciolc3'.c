@@ -1,3 +1,4 @@
+//Faca um programa que calcule e escreva o valor de S
 //Make a program resolv the equation 1/2+3/2+5/3.....
 
 #include <stdio.h>
