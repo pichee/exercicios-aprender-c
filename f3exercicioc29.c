@@ -1,3 +1,4 @@
+//Escreva um programa para calcular o valor da serie, para 5 termos.
 //addition the numbers the formula S = 0 + 1/2! + 2/4! + 3/6! + ... until the five
 #include <stdio.h>
 int main(){
