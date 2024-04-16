@@ -1,3 +1,8 @@
+//Faca um programa para ler as dimensoes de um terreno (comprimento c e largura l),
+//bem como o preco do metro de tela p. Imprima o custo para cercar este mesmo terreno
+//com tela.
+
+
 //Create a program to read the dimensions of a plot of land (length c and width l),
 // as well as the price per meter of fencing p. Print the cost to fence this same
 // plot of land with fencing.
