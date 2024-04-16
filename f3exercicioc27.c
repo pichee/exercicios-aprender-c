@@ -1,4 +1,6 @@
-/Make a program read a harmony number
+//Em Matematica, o numero harmonico designado por H(n) define-se como sendo a soma
+//da serie harmonica:
+//Make a program read a harmony number
 #include <stdio.h>
 
 int main()
