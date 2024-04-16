@@ -1,7 +1,10 @@
-//8. Fac¸a um programa que mostre ao usuario um menu com 4 opc¸ ´ oes de operac¸ ˜ oes ma- ˜
-//tematicas (as b ´ asicas, por exemplo). O usu ´ ario escolhe uma das opc¸ ´ oes e o seu pro- ˜
-//grama entao pede dois valores num ˜ ericos e realiza a operac¸ ´ ao, mostrando o resultado e ˜
+//Faca um programa que mostre ao usuario um menu com 4 opcoes de operacoes ma
+//tematicas (as basicas, por exemplo). O usuario escolhe uma das opcoes e o seu programa
+//entao pede dois valores numericos e realiza a operacao, mostrando o resultado e
 //saindo.
+
+//Create a program that displays to the user a menu with 4 options of mathematical operations (the basic ones, for example).
+//The user chooses one of the options, and your program then asks for two numerical values and performs the operation, showing the result and exiting.
 #include <stdio.h>
     int main(){
         int c,n1,n2;
