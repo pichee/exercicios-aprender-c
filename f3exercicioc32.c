@@ -1,3 +1,6 @@
+//Faca um programa que simula o lanc¸amento de dois dados, d1 e d2, n vezes, e tem como
+//saıda o numero de cada dado e a relacao entre eles ( ˜ >,<,=) de cada lancamento.
+
 //Make a program for to dices rolling and show the if they is bigger smallingor igual.
 #include <stdio.h>
 #include <stdlib.h>
