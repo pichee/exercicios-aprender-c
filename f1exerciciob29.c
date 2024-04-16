@@ -1,3 +1,4 @@
+//Leia quatro notas, calcule a media aritmetica e imprima o resultado.
 //read four numbers, calculate the Arithmetic Mean and showing the result.
 #include <stdio.h>
 int main(){
