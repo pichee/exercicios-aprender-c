@@ -1,3 +1,4 @@
+//Implemente um programa que calcule o ano de nascimento de uma pessoa a partir de sua idade e do ano atual.
 //Make a program that calculetes the yer of the birthday the one person from your years and the and from the current year a partir de
 #include <stdio.h>
 	int main(){
