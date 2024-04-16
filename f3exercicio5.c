@@ -1,3 +1,5 @@
+//Faca um programa que peca ao usuario para digitar 10 valores e some-os. 
+
 //make a program the user enter 10 numbers and you show the addition;
 #include <stdio.h>
 int main(){
