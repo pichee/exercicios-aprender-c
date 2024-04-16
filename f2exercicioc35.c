@@ -1,4 +1,7 @@
+//Leia uma data e determine se ela e valida.
+
 //Read a data and verific if is valid
+
 #include <stdio.h>
 int main(){
     int a2,a1,a,s,m,d,y;
