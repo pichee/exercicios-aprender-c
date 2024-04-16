@@ -1,6 +1,8 @@
+//. Faca um programa que receba a altura e o peso de uma pessoa. De acordo com a tabela
+//a seguir, verifique e mostra qual a classificac¸ao dessa pessoa.
 //Make a program that classffy a person base your tall and your weight.
 //Using the frame for classffy
-//Obs:I don't know you put the frame in c :/
+//Obs:I don't know want put the frame :/
 
 
 #include <stdio.h>
