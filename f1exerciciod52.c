@@ -1,3 +1,8 @@
+//Tres amigos jogaram na loteria. Caso eles ganhem, o premio deve ser repartido pro-
+//porcionalmente ao valor que cada deu para a realizacao da aposta. Fac¸a um programa
+//que leia quanto cada apostador investiu, o valor do premio, e imprima quanto cada um
+//ganharia do premio com base no valor investido.
+
 //three friends playing in the lotery.If they won,The  must be divid the value
 //proportiona to the amont each contributed to the bet.Make a Program that reads
 //each friend invest,the  value the award is proportional to the invest.
