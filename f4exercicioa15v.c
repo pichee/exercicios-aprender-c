@@ -17,7 +17,7 @@ int main() {
                 break;
             }
         }
-        if (!duplicado) {
+        if (duplicado==0) {
             vv[s] = v[a];
             s++;
         }
