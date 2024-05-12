@@ -1,38 +1,29 @@
-//Escreva um programa que recebe do usuario uma string S, um caractere C, e uma
-//posicao I e devolve o ındice da primeira posicao da string onde foi encontrado o caractere 
-//C. A procura deve comecar a partir da posicao I.
+//Escreva um programa que leia duas palavras e diga qual deles vem primeiro na ordem
+//alfabetica. Dica: ‘a’ e menor do que ‘b’
 
-//Read a program what receb the user a string S,a caractere c,and a positon and index where be found a caractere
-//C.the found need is the first position
-
+//Read a program read two words and tell how star in the alphabetic order: tip(a is smaller than b);
 #include <stdio.h>
     int main(){
-        char v[100],c;
-        int p=0,a;
-        printf("Enter a string:");
-        scanf("%99[^\n]",v);
+        char p[100];
+        char p1[100];
+        int a=0,s=0;
+        printf("Enter a word:");
+        scanf("%99[^\n]",p);
         getchar();
-        printf("What char you want:");
-        scanf(" %c",&c);
-        printf("What position  you can star:");
-        scanf("%i",&p);
-        p=p-1;
-        while(a==0){
-            if(v[p]==c){
+        printf("Enter a other word:");
+        scanf("%99[^\n]",p1);
+        while(s==0){
+            if(p[a]==p1[a]){
                 a++;
+            }
+            else if(p[a]<p1[a]){
+            printf("The first word is %s",p);
+            s++;
             }else{
-                p++;
-            }
-            if(p>100){
-                a=2;
+                printf("The first word is %s",p1);
+                s++;
             }
         }
-        if(a==1){
-            printf("This letter is found in %i position",p+1);
-            
-        }
-        else{
-            printf("This letter is'nt found ");
-        }
+        
         
     }
