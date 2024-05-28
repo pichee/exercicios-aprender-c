@@ -16,7 +16,7 @@
             }
         
         }
-        soma=aux[1][0]+aux[3][0]+aux[3][1];
+        soma=aux[1][0]+aux[2][0]+aux[2][1];
         printf("There addition numbers down principal diagonal is %.2f",soma);
         
     }
