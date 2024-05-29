@@ -8,7 +8,7 @@
         printf("How line do you want return the add value:");
         scanf("%i",&i);
         s=n[i][0]+n[i][1]+n[i][2]+n[i][3]+n[i][4]+n[i][5]+n[i][6];
-        printf("the add this princiapal and secondary diagonal is %i",s);
+        printf("the add this princiapal line is %i",s);
     }
     int main(){
         int i=0,a=0,n[7][6];
