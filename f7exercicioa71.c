@@ -9,6 +9,18 @@
 //esteja localizado dentro do retangulo e 0 caso contrario. Essa funcao deve obedecer ao
 //prototipo:
 //int dentroRet (struct Ponto* v1, struct Ponto* v2, struct Ponto* p)
+
+//Considering the structure:
+//struct Point{
+//int x;
+//int y;
+//};
+//to represent a point on a 2D grid, implement a function that indicates whether a
+//point p is located inside or outside a rectangle. The rectangle is defined by its
+//vertices bottom left v1 and top right v2. The function must return 1 if the point
+//is located inside the rectangle and 0 otherwise. This function must comply with the
+//prototype:
+//int inRet (struct Ponto* v1, struct Ponto* v2, struct Ponto* p)
 #include <stdio.h>
 struct Ponto {
     int x;
