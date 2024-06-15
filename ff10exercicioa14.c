@@ -40,4 +40,6 @@ int main(){
     {
     printf("%i",matriz[i][b]);
     }
-        }}
+        }
+    free(matriz);
+        }
