@@ -1,10 +1,10 @@
 //Faca um programa que leia um numero inteiro e o imprima.
-//Make a program show a whole number.
+//Make a program show a integer number.
 #include <stdio.h>
 int main()
 {
-    int n;
-    printf("Enter a number:");
-    scanf("%i",&n);
-    printf("%i",n);
+    int numero;
+    printf("Enter an integer number:");
+    scanf("%i",&numero);
+    printf("The  entered number is %i",numero);
 }
