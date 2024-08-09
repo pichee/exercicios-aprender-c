@@ -4,9 +4,9 @@
 //Read a speed in km/h and show in m/s
 #include <stdio.h>
 int main(){
-    float m,km;
-    printf("Enter a speed in km/h ");
+    float metros,km;
+    printf("Enter a speed in km/h: ");
     scanf("%f",&km);
-    m=km/3.6;
-    printf("this speed is igual %.2f m/s",m);
+    metros=km/3.6;
+    printf("this speed is igual %.2f m/s",metros);
 }
