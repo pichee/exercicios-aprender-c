@@ -5,10 +5,10 @@
 int
 main ()
 {
-    float n;
+   float numero=0,quadrado=0;
   printf ("Enter a number:");
-  scanf("%f",&n);
-  n=n*n;
-  printf("The square is %.2f",n);    
+  scanf("%f",&numero);
+  quadrado=numero*numero;
+  printf("The square is %.2f",quadrado);    
   return 0;
 }
