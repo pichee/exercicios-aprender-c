@@ -3,8 +3,8 @@
 #include <stdio.h>
 int main()
 {
-    float n;
-    printf("Enter a number:");
-    scanf("%f",&n);
-    printf("%.2f",n);
+    float numero_flutuante;
+    printf("Enter a float number:");
+    scanf("%f",&numero_flutuante);
+    printf(" The  entered number is %f",numero_flutuante);
 }
