@@ -2,9 +2,15 @@
 //Read a float number and show the fifth part this number;
 #include <stdio.h>
 int main(){
-    float n;
+    float numero;
     printf("Enter a number:");
-    scanf("%f",&n);
-    n=n/5;
-    printf("The fifth part is %.2f",n);
+    scanf("%f",&numero);
+    if (numero!=0){
+    numero=numero/5;
+    }
+    else{
+    printf("the number zero is not division");
+    return 0;
+    }
+    printf("The fifth part is %.2f",numero);
 }
