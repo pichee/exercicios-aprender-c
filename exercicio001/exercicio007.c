@@ -7,10 +7,10 @@
 
 int main()
 {
-    float f,c;
-    printf("Enter the temperature in Fahrenheit ");
-    scanf("%f",&f);
-    c=5*(f-32)/9;
-    printf("this temperature is igual %.2f Celsius",c);
+    float fahrenheit,celsius;
+    printf("Enter the temperature in Fahrenheit:");
+    scanf("%f",&fahrenheit,celsius);
+    celsius=5*(fahrenheit-32)/9;
+    printf("this temperature is igual %.2f Celsius",celsius);
     return 0;
 }
