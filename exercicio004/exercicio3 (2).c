@@ -1,5 +1,5 @@
 //Faca um programa que preenche uma matriz 4 x 4 com o produto do valor da linha e da
-//coluna de cada elemento. Em seguida, imprima na tela a matriz.
+//coluna de cada elemento. Em seguida,imprima na tela a matriz.
 
 //make a matrix 4 x 4 and show the porduct the line by the colune.
 
