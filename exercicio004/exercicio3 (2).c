@@ -6,39 +6,22 @@
 
 #include <stdio.h>
     int main(){
-        int v[4][4];
-        int a;
-        int c;
-        for (int i = 0; i <4; i++)
+        int matrix[4][4];
+        int linha;
+        int pula_pula=0;
+        for (int coluna = 0;coluna <4; coluna++)
         {
-            for( a=0; a<4;a++){
-                printf("Enter a value for the matrix:");
-                scanf("%i",&v[i][a]);
-                if(i==0){
-                    v[i][a]=1*v[i][a];
-                }
-                if(i==1){
-                    v[i][a]=2*v[i][a];
-                }
-                if(i==2){
-                    v[i][a]=3*v[i][a];
-                }
-                if(i==3){
-                    v[i][a]=4*v[i][a];
-                
-                }
-            }}
-            for (int i = 0; i <4; i++)
+            for(linha=0;linha<4;linha++){
+               matrix[coluna][linha]=linha*coluna;
+               printf("%i ",matrix[coluna][linha]);
+                if (pula_pula>=3)
                 {
-                    c=0;
-                    for( a=0; a<4;a++)
-                    {c++;
-                    printf("%i ",v[i][a]);
-                    if(c==4)
-                    {
-                        printf("\n");
-                    }
-            }
-        }}
-        
-
+                    printf("\n");
+                    pula_pula=0;
+                }
+                else
+                {
+                    pula_pula++;
+                }
+                
+            }}}
