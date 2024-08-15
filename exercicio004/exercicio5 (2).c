@@ -4,36 +4,38 @@
 
 //Read a matrix 5 x 5 and show how is the x value
 #include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
     int main(){
-        int v[4][4],vco[25],vl[25],a=0;
-        int i,c,x;
-        printf("Enter of x value:");
+        int matrix[5][5],x_esta_na_matrix=0;
+        int coluna,linha,x,pula_pula=0;
+        printf("Enter value of X:");
+        srand(time(NULL));
         scanf("%i",&x);
-        for(i=0;i<4;i++){
-            for ( c = 0; c < 4; c++)
+        srand(time(NULL));
+        for(coluna=0;coluna<5;coluna++){
+            for ( linha = 0; linha < 5; linha++)
             {
-                printf("Enter a value:");
-                scanf("%i",&v[i][c]);
+                matrix[coluna][linha]=rand()%100;
+                if(x==matrix[coluna][linha]){
+                 x_esta_na_matrix=1;
                 }
-            }
-            for(i=0;i<4;i++){
-            for ( c = 0; c < 4; c++)
-            {
-                if(v[i][c]==x){
-                    vco[a]=c;
-                    vl[a]=i;
-                    a++;
+                if(pula_pula>4){
+                printf("\n");
+                pula_pula=1;
                 }
+                else{
+                pula_pula++;
                 }
+                printf("%i ",matrix[coluna][linha]);
+                
+            }}
+            if (x_esta_na_matrix==1){
+                printf("\nO valor de x está na matrix");
             }
-        if(a>0){
-            printf("X found %i times and the positions is\n",a);
-            for(i=0;i<a;i++){
-                    printf("[%i,%i]\n",vl[i],vco[i]);
+            else{
+                printf("\nO valor de x não está na matrix");
             }
-            
-        }
-        else{
-            printf("X not found");
-        }
+
     }
+            
