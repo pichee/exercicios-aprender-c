@@ -1,41 +1,68 @@
-//Leia uma matriz 5 x 5. Leia tambem um valor  X. O programa devera fazer uma busca 
-//desse valor na matriz e, ao final, escrever a localizacao (linha e coluna) ou uma mensa
-//gem de “nao encontrado”
+//Leia duas matrizes 4 x 4 e escreva uma terceira com os maiores valores de cada posicao
+//das matrizes lidas.
 
-//Read a matrix 5 x 5 and show how is the x value
+//Read two matrix and show the bigger value.
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-    int main(){
-        int matrix[5][5],x_esta_na_matrix=0;
-        int coluna,linha,x,pula_pula=0;
-        printf("Enter value of X:");
-        srand(time(NULL));
-        scanf("%i",&x);
-        srand(time(NULL));
-        for(coluna=0;coluna<5;coluna++){
-            for ( linha = 0; linha < 5; linha++)
-            {
-                matrix[coluna][linha]=rand()%100;
-                if(x==matrix[coluna][linha]){
-                 x_esta_na_matrix=1;
-                }
-                if(pula_pula>4){
+
+int main(){
+    srand(time(NULL));
+    int matrix1[4][4],matrix2[4][4],matrix_maiorvalores[4][4];
+    int linha=0,coluna=0,pula_pula=1;
+    printf("Matrix 1\n");
+    for (linha= 0; linha < 4; linha++)
+    {
+        for (coluna=0; coluna < 4; coluna++)
+        {
+            matrix1[linha][coluna]=rand()%100;
+            printf("%i ",matrix1[linha][coluna]);
+            if(pula_pula>3){
                 printf("\n");
                 pula_pula=1;
-                }
-                else{
-                pula_pula++;
-                }
-                printf("%i ",matrix[coluna][linha]);
-                
-            }}
-            if (x_esta_na_matrix==1){
-                printf("\nO valor de x está na matrix");
             }
             else{
-                printf("\nO valor de x não está na matrix");
+                pula_pula++;
             }
+        }
 
     }
-            
+    linha=0;
+    coluna=0;
+        printf("Matrix 2\n");
+        pula_pula=1;
+    for (linha= 0; linha < 4; linha++)
+    {
+        for (coluna=0; coluna < 4; coluna++)
+        {
+            matrix2[linha][coluna]=rand()%100;
+            printf("%i ",matrix2[linha][coluna]);
+            if(pula_pula>3){
+                printf("\n");
+                pula_pula=1;}
+            else{
+            pula_pula++;}    
+        }
+
+    }
+    printf("\nMatrix 3:\n");
+        for (linha= 0; linha < 4; linha++)
+    {
+        for (coluna=0;coluna< 4; coluna++)
+        {
+            if(matrix1[linha][coluna]>matrix2[linha][coluna])
+            {
+                matrix_maiorvalores[linha][coluna]=matrix1[linha][coluna];
+}
+else{
+matrix_maiorvalores[linha][coluna]=matrix2[linha][coluna];
+}
+printf("%i ",matrix_maiorvalores[linha][coluna]);
+if(pula_pula>3){
+                printf("\n");
+                pula_pula=1;}
+            else{
+            pula_pula++;}    
+        }
+
+}}
