@@ -3,50 +3,66 @@
 
 //Read two matrix and show the bigger value.
 #include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+
 int main(){
-    int v[4][4];
-    int j=0,c=0;
-    int vm[4][4];
-    int v1[4][4];
+    srand(time(NULL));
+    int matrix1[4][4],matrix2[4][4],matrix_maiorvalores[4][4];
+    int linha=0,coluna=0,pula_pula=1;
     printf("Matrix 1\n");
-    for (j= 0; j < 4; j++)
+    for (linha= 0; linha < 4; linha++)
     {
-        for (c=0; c < 4; c++)
+        for (coluna=0; coluna < 4; coluna++)
         {
-            printf("Enter a number:");
-            scanf("%i",&v[j][c]);
-        }
-        
-    }
-        printf("Matrix 2\n");
-    for (j= 0; j < 4; j++)
-    {
-        for (c=0; c < 4; c++)
-        {
-            printf("Enter a number:");
-            scanf("%i",&v1[j][c]);
-        }
-        
-    }
-        for (j= 0; j < 4; j++)
-    {
-        for (c=0; c < 4; c++)
-        {
-            if(v[j][c]>v1[j][c])
-            {
-                vm[j][c]=v[j][c];
-            }
-            else if(v[j][c]==v1[j][c]){
-                vm[j][c]=v[j][c];
+            matrix1[linha][coluna]=rand()%100;
+            printf("%i ",matrix1[linha][coluna]);
+            if(pula_pula>3){
+                printf("\n");
+                pula_pula=1;
             }
             else{
-                vm[j][c]=v1[j][c];
+                pula_pula++;
             }
-            
+        }
+
+    }
+    linha=0;
+    coluna=0;
+        printf("Matrix 2\n");
+        pula_pula=1;
+    for (linha= 0; linha < 4; linha++)
+    {
+        for (coluna=0; coluna < 4; coluna++)
+        {
+            matrix2[linha][coluna]=rand()%100;
+            printf("%i ",matrix2[linha][coluna]);
+            if(pula_pula>3){
+                printf("\n");
+                pula_pula=1;}
+            else{
+            pula_pula++;}    
+        }
+
+    }
+    printf("\nMatrix 3:\n");
+        for (linha= 0; linha < 4; linha++)
+    {
+        for (coluna=0;coluna< 4; coluna++)
+        {
+            if(matrix1[linha][coluna]>matrix2[linha][coluna])
+            {
+                matrix_maiorvalores[linha][coluna]=matrix1[linha][coluna];
+}
+else{
+matrix_maiorvalores[linha][coluna]=matrix2[linha][coluna];
+}
+printf("%i ",matrix_maiorvalores[linha][coluna]);
+if(pula_pula>3){
+                printf("\n");
+                pula_pula=1;}
+            else{
+            pula_pula++;}    
+        }
+
 }}
-        for (j= 0; j < 4; j++)
-        {
-        for (c=0; c < 4; c++)
-        {
-            printf("%i\n",vm[j][c]);
-        }}}
