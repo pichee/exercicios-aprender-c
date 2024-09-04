@@ -1,19 +1,19 @@
-//Escreva um programa que declare um inteiro, um real e um char, e ponteiros para inteiro, real, e char. Associe as variaveis aos ponteiros (use &). Modifique os valores de
-//cada variavel usando os ponteiros. Imprima os valores das variaveis antes e apos a
-//modificacao. 
-
-//Make a pointer that declare if is a int a float and a char and modify the values with the pointer that show the variable
+/*Escreva um programa que declare um inteiro, um real e um char, e ponteiros para in-
+teiro, real, e char. Associe as variaveis aos ponteiros (use &). Modifique os valores de ´
+cada variavel usando os ponteiros. Imprima os valores das vari ´ aveis antes e ap ´ os a ´
+modificac¸ao.*/
 #include <stdio.h>
-    int main(){
-        int x=10;
-        float y=5.5;
-        char z='a';
-        printf("The value is\n%i\n%.2f\n%c\n",x,y,z);
-        int *px=&x;
-        float *py=&y;
-        char *pz=&z;
-        *px=8;
-        *py=9.9;
-        *pz='c';
-        printf("The value is\n%i\n%.2f\n%c\n",*px,*py,*pz);
-            }
+int main(){
+int numero=10;
+float real=9.987654;
+char letra='a';
+printf("%i \n %f \n %c",numero,real,letra);
+int *ponteiro_int=&numero;
+float *ponteiro_float=&real;
+char *ponteiro_char=&letra;
+*ponteiro_int=20;
+*ponteiro_float=10.1;
+*ponteiro_char='u';
+printf("\n%i \n %f \n %c",numero,real,letra);
+
+}
