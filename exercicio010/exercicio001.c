@@ -4,23 +4,25 @@
 //(c) Mostre na tela os 5 numeros
 //(d) Libere a memoria alocada
 
-//Make a program that 
-//enter a array with int  five elementos
-//the user enter the values you show the values and relase the memory
-
+// Create a program that:
+// (a) Dynamically allocates an array of 5 integers,
+// (b) Asks the user to enter the 5 numbers into the allocated space,
+// (c) Displays the 5 numbers on the screen,
+// (d) Frees the allocated memory
 #include <stdio.h>
+#include <stdlib.h>
 int main(){
-    int valeu[5],i=0;
-    for(i=0;i<5;i++){
-    printf("Enter a value:");
-    scanf("%i",&valeu[i]);
-    }
-    i=0;
-    int *ponteiro=&valeu[i];
-    for(i=0;i<5;i++){
-    printf("%i ",valeu[i]);
-    }
-    free(ponteiro);
-    }
+    int *array;
+    array=(int*)malloc(5*sizeof(int));
     
+    for(int i=0;i<5;i++){
+    printf("Digite um valor para a posição %i:",i+1);
+    scanf("%i",&array[i]);
+    }
+    printf("Valores:\n");
+    for(int i=0;i<5;i++){
+    printf("%i ",array[i]);
+    }
+    free(array);
+    }
     
