@@ -5,17 +5,17 @@
 //Make a function that receb a string and after showing but withou the vogals
 #include <stdio.h>
 #include <stdlib.h>
-int funcao(int n){
-    char *con=(char *)malloc(n* sizeof(char));
+int funcao(int size){
+    char *con=(char *)malloc(size* sizeof(char));
     if (con == NULL) {
         printf("Error allocating memory\n");
         return 0;
     }
     printf("Enter what do you want:");
     getchar();
-    fgets(con,n,stdin);
+    fgets(con,size,stdin);
     int i=0;
-    for (i = 0; i < n; i++)
+    for (i = 0; i < size; i++)
     {
         if(con[i]=='a'||con[i]=='e'||con[i]=='i'||con[i]=='o'||con[i]=='u'){
 
@@ -27,12 +27,12 @@ int funcao(int n){
     }
     free(con);
     return 0;
-    
+
 
 }
 int main(){
-    int n=0;
+    int size;
     printf("How many letters you string do you want:");
-    scanf("%i",&n);
-    funcao(n+1);
+    scanf("%i",&size);
+    funcao(size+1);
 }
