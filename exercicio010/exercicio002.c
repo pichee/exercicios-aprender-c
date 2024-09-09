@@ -1,21 +1,27 @@
-//Faca um programa que leia do usuario o tamanho de um vetor a ser lido e faca a alocacao
-//dinamica de memoria. Em seguida, leia do usu ario seus valores e imprima o vetor lido.
-
-//Make a program that the user rrad a vevtoand make the alocation
-//Next read the user your values and showing the vector read.
-
+/*Faca um programa que leia do usuario o tamanho de um vetor a ser lido e faca a alocacao dinamica de memoria. 
+Em seguida, leia do usuario seus valores e imprima o vetor lido.*/
+/*Make a program that Read a value informed to the user and make a vector with the value after make locations memory
+and showing the results*/
 #include <stdio.h>
 int main(){
-     int s;
-    printf("How much is the size the array:");
-    scanf("%i",&s);
-    int v[s];
-    int i=0;
-    for(i=0;i<s;i++){
-    printf("Enter a number");
-    scanf("%i",&v[i]);
+    int size;
+    printf("How many numbers do you want: ");
+    scanf("%i",&size);
+    int *ponteiro;
+    ponteiro=(int*)malloc(size*sizeof(int));
+    int bytes=size*sizeof(int);
+    for(int i=0;i<size;i++){
+    printf("Enter a number of the position [%i]:",i+1);
+    scanf("%i",&ponteiro[i]);
 }
-    i=0;
-    for(i=0;i<s;i++){
-printf("%u\n is the memory and the value is %i\n",(unsigned int)sizeof(v[i]),v[i]);
-}}
+printf("Vector\n");
+    for(int i=0;i<size;i++){
+printf("%i ",ponteiro[i]);
+}
+printf("\n\nThis vector there is %i numbers so he has %i bytes",size,bytes);
+printf("\nMemory Locations\n\n");
+for(int i=0;i<size;i++){
+printf("number %i location %i \n ",ponteiro[i],&ponteiro[i]);
+}
+free(ponteiro);
+}
