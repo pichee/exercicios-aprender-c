@@ -1,3 +1,4 @@
+//Escreva uma funcao que conta o numero de n os de uma  arvore binaria.
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -46,7 +47,7 @@ void liberarArvore(No* raiz) {
 
 int main() {
     No* raiz = NULL;
-    int opcao, valor;
+    int opcao, valor,co=0;
 
     do {
         printf("\nMENU:\n");
@@ -61,6 +62,7 @@ int main() {
                 printf("Digite o valor a ser inserido: ");
                 scanf("%d", &valor);
                 raiz = criarNaArvore(raiz, valor);
+co++;
                 break;
             case 2:
                 printf("Árvore em ordem: ");
